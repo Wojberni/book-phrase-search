@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><library>
+    <user>
+        <username>admin</username>
+        <password>admin</password>
+    </user>
+    <user>
+        <username>wojciech</username>
+        <password>wojciech</password>
+    </user>
+<user><username>marek</username><password>marek</password></user></library>
