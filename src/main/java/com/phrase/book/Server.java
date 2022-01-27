@@ -16,8 +16,8 @@ public class Server {
             serverSocket = new ServerSocket(port);
             clientSockets = new ArrayList<>();
             elasticClient = RestClientElastic.clientConfig();
-//            RestClientElastic.createIndex(elasticClient);
-//            RestClientElastic.createDatabase();
+            RestClientElastic.createIndex(elasticClient);
+            RestClientElastic.createDatabase();
             while (true){
                 Socket clientSocket = serverSocket.accept();
                 clientSockets.add(clientSocket);
